@@ -9,6 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
+        <module>data-structure</module>
         <module>0001-two-sum</module>
         <module>0058-length-of-last-word</module>
         <module>0165-compare-version-numbers</module>
