@@ -9,9 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>length-of-last-word</module>
-        <module>count-prime</module>
-        <module>compare-version-numbers</module>
+        <module>0001-two-sum</module>
+        <module>0058-length-of-last-word</module>
+        <module>0165-compare-version-numbers</module>
     </modules>
 
     <properties>
