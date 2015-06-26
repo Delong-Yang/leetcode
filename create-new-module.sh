@@ -29,7 +29,7 @@ mkdir -p src/main/java
 mkdir -p src/main/resources
 mkdir -p src/test/groovy
 
-echo \"import spock.lang.Specification
+echo "import spock.lang.Specification
 
 class SolutionTest extends Specification {
     def \"test\"() {
@@ -39,12 +39,12 @@ class SolutionTest extends Specification {
 
         then:
     }
-}\" >> src/test/groovy/SolutionTest.groovy
+}" >> src/test/groovy/SolutionTest.groovy
 
-echo \"
+echo "
 public class Solution {
     
-}\" >> src/main/java/Solution.java
+}" >> src/main/java/Solution.java
 
-echo \"${module_name} created!\"
+echo "${module_name} created!"
 
