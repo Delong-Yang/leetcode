@@ -10,10 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>0058-length-of-last-word</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>../0001-two-sum</module>
-    </modules>
 
 
 </project>
