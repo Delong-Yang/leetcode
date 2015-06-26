@@ -12,6 +12,7 @@
         <module>data-structure</module>
         <module>0001-two-sum</module>
         <module>0002-add-two-numbers</module>
+        <module>0003-longest-substring-without-repeating-characters</module>
         <module>0006-zigzag-conversion</module>
         <module>0058-length-of-last-word</module>
         <module>0118-pascals-triangle</module>
