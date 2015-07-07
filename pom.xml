@@ -19,6 +19,7 @@
         <module>0165-compare-version-numbers</module>
         <module>0204-count-primes</module>
         <module>0231-power-of-two</module>
+        <module>0232-implement-queue-using-stacks</module>
     </modules>
 
     <properties>
