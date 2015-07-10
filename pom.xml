@@ -22,6 +22,7 @@
         <module>0225-implement-stack-using-queues</module>
         <module>0231-power-of-two</module>
         <module>0232-implement-queue-using-stacks</module>
+        <module>0234-palindrome-linked-list</module>
     </modules>
 
     <properties>
