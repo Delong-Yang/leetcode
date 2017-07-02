@@ -25,6 +25,7 @@
         <module>0231-power-of-two</module>
         <module>0232-implement-queue-using-stacks</module>
         <module>0234-palindrome-linked-list</module>
+        <module>0235-lowest-common-ancestor-of-a-binary-search-tree</module>
     </modules>
 
     <properties>
