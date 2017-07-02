@@ -26,6 +26,7 @@
         <module>0232-implement-queue-using-stacks</module>
         <module>0234-palindrome-linked-list</module>
         <module>0235-lowest-common-ancestor-of-a-binary-search-tree</module>
+        <module>0236-lowest-common-ancestor-of-a-binary-tree</module>
     </modules>
 
     <properties>
