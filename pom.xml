@@ -27,6 +27,7 @@
         <module>0234-palindrome-linked-list</module>
         <module>0235-lowest-common-ancestor-of-a-binary-search-tree</module>
         <module>0236-lowest-common-ancestor-of-a-binary-tree</module>
+        <module>0560-subarray-sum-equals-k</module>
     </modules>
 
     <properties>
