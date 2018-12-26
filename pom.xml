@@ -28,11 +28,14 @@
         <module>0235-lowest-common-ancestor-of-a-binary-search-tree</module>
         <module>0236-lowest-common-ancestor-of-a-binary-tree</module>
         <module>0560-subarray-sum-equals-k</module>
+        <module>0807-max-increase-to-keep-city-skyline</module>
+        <!--MODULE PLACE HOLDER-->
     </modules>
 
     <properties>
         <junit.version>4.11</junit.version>
         <groovy.version>2.3.7</groovy.version>
+        <java.version>1.8</java.version>
     </properties>
 
 

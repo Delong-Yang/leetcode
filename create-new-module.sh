@@ -1,11 +1,37 @@
 #!/bin/sh
 module_name=$1
 
+# turn off history substantiation
+set +H
+
+if [[ -z ${module_name} ]]
+then
+    echo "1st param module_name is mandatory."
+    exit 1
+fi
+
+module_name=${module_name// /-}
+module_name=${module_name//./}
+module_name=${module_name,,}
+
+problem_no=${module_name%%-*}
+
+while [[ ${#problem_no} -lt 4 ]];
+do
+  problem_no=0${problem_no}
+done
+module_name=${problem_no}-${module_name#*-}
+
+echo ${module_name}
+
 if test -e ${module_name}
 then
     echo "${module_name} exists."
     exit 1
 fi
+
+MODULE_PLACE_HOLDER="<!--MODULE PLACE HOLDER-->"
+sed -i "s/${MODULE_PLACE_HOLDER}/<module>${module_name}<\/module>\n        ${MODULE_PLACE_HOLDER}/g"  pom.xml
 
 mkdir ${module_name}
 cd ${module_name}
